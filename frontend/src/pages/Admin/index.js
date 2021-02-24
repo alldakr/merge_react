@@ -1,11 +1,15 @@
 import React, { Component } from "react";
 import { Container, Row, Button } from "reactstrap";
 
-export default function MyPage() {
+import Dashboard from "pages/Admin/Dashboard";
+
+export default function Admin() {
   return (
     <div>
       <div className="section section-js-components">
-        <Container>My Page</Container>
+        <Container>
+          <Dashboard />
+        </Container>
       </div>
     </div>
   );
